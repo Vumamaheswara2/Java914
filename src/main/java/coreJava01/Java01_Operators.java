@@ -2,7 +2,7 @@ package coreJava01;
 
 import com.oracle.deploy.update.UpdateCheck;
 
-public class Java01 {
+public class Java01_Operators {
 
     /*
      * What is the class: Class is a blueprint of the template, 
@@ -25,7 +25,7 @@ public class Java01 {
      */
     public static void main(String[] args) {
         System.out.println("Test");
-        Java01 java = new Java01();
+        Java01_Operators java = new Java01_Operators();
         /**
         java.assignmentOperators();
         java.relationalOperators();
