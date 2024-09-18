@@ -1,5 +1,7 @@
 package coreJava01;
 
+import com.oracle.deploy.update.UpdateCheck;
+
 public class Java01 {
 
     /*
@@ -24,15 +26,43 @@ public class Java01 {
     public static void main(String[] args) {
         System.out.println("Test");
         Java01 java = new Java01();
-        //java.assignmentOperators();
-        //java.relationalOperators();
+        /**
+        java.assignmentOperators();
+        java.relationalOperators();
         java.unaryOperators();
+         **/
+        java.logicalOperators();
 
 
     }
 
-    public  void unaryOperators(){
+    public void logicalOperators(){
+        /*
+        Logical &&, || , !
+         */
+        System.out.println("Logical operator AND - &&");
 
+        System.out.println(true && false);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+
+        System.out.println("Logical operator OR - ||");
+
+        System.out.println(true && false);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+
+        System.out.println("Logical operator NOT - !");
+
+        System.out.println(!true);
+        System.out.println(!false);
+
+    }
+
+    public  void unaryOperators(){
+        //unary operators
         int a = 10;
         int b = 20;
 
@@ -44,6 +74,18 @@ public class Java01 {
         System.out.println(b);
         --a;
         System.out.println(a);
+
+        System.out.println("2nd method");
+        int i = 10;
+        int j = 20;
+
+        System.out.println(i++);
+        System.out.println(--j);
+        System.out.println(i--);
+        System.out.println(j++);
+
+        System.out.println(i);
+        System.out.println(j);
     }
 
     public void relationalOperators(){
